@@ -71,3 +71,4 @@ sudo apt update
 sudo apt install caddy
 
 sudo apt-get install python3-dev
+sudo apt install nvitop
