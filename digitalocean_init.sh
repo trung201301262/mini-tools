@@ -130,5 +130,8 @@ sudo apt install -y nvitop
 echo ">>> Cài đặt các gói tiện ích khác hoàn tất."
 echo ""
 # --- Kết thúc Cài đặt các gói tiện ích khác ---
-
+sudo fallocate -l 32G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
 echo ">>> SCRIPT HOÀN THÀNH TOÀN BỘ! Kiểm tra lại các LƯU Ý QUAN TRỌNG ở trên. ✨"
